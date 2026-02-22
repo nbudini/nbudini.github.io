@@ -1,7 +1,7 @@
 # -----------------------------
 # THEME
 # -----------------------------
-theme: jekyll-theme-primer
+theme: jekyll-theme-cayman
 
 # -----------------------------
 # SITE SETTINGS
@@ -11,6 +11,7 @@ title: "Nicolás Budini"
 title_separator: "-"
 subtitle: "Personal Blog"
 name: "Nicolás Budini"
+markdown: kramdown
 
 description: >-
   Physicist and university professor based in Argentina.
