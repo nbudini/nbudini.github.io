@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Nicolás Budini | Physicist"
+permalink: /home/
 ---
 
 ## Welcome
