@@ -19,4 +19,4 @@ I teach undergraduate and graduate physics courses and supervise research projec
 
 ## Contact
 
-Email: your@email.com
+Email: nbudini@fiq.unl.edu.ar / nicolas.budini@santafe-conicet.gov.ar / budinense@gmail.com
