@@ -70,3 +70,17 @@ social:
   name: "Nicolás Budini"
   links:
     - "https://twitter.com/nbudini"
+
+# -----------------------------
+# Navigation
+# -----------------------------
+header:
+  nav:
+    - title: "Research"
+      url: /research/
+    - title: "Teaching"
+      url: /teaching/
+    - title: "Publications"
+      url: /publications/
+    - title: "CV"
+      url: /cv/
