@@ -1,13 +1,7 @@
 # -----------------------------
 # THEME
 # -----------------------------
-remote_theme: "mmistakes/minimal-mistakes@4.17.2"
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
-
-minimal_mistakes_skin: "default"
+theme: jekyll-theme-primer
 
 # -----------------------------
 # SITE SETTINGS
@@ -45,42 +39,6 @@ author:
     of nanostructured materials. University professor in physics.
 
 # -----------------------------
-# BLOG SETTINGS
-# -----------------------------
-markdown: kramdown
-permalink: /:categories/:title/
-
-paginate: 5
-paginate_path: /page:num/
-
-search: true
-
-# -----------------------------
 # ANALYTICS
 # -----------------------------
-analytics:
-  provider: google-gtag
-  google:
-    tracking_id: G-FBE9XX1P28
-
-# -----------------------------
-# SEO
-# -----------------------------
-social:
-  name: "Nicolás Budini"
-  links:
-    - "https://twitter.com/nbudini"
-
-# -----------------------------
-# Navigation
-# -----------------------------
-header:
-  nav:
-    - title: "Research"
-      url: /research/
-    - title: "Teaching"
-      url: /teaching/
-    - title: "Publications"
-      url: /publications/
-    - title: "CV"
-      url: /cv/
+google_analytics: G-FBE9XX1P28
