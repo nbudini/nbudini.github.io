@@ -3,7 +3,7 @@ layout: default
 title: "Nicolás Budini | Physicist"
 ---
 
-## About Me
+## Welcome
 
 I am a physicist working in digital holography and optical characterization of nanostructured materials. My research combines experimental optics and computational methods for quantitative phase imaging.
 
