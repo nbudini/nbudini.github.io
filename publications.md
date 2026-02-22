@@ -1,6 +1,6 @@
 ---
-layout: single
-title: "Publications"
+layout: page
+title: Publications
 permalink: /publications/
 ---
 
