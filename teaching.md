@@ -1,6 +1,6 @@
 ---
-layout: single
-title: "Teaching"
+layout: page
+title: Teaching
 permalink: /teaching/
 ---
 
