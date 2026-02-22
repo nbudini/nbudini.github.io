@@ -11,7 +11,8 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : pages-themes/minimal@v0.2.0
+# remote_theme             : pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -22,12 +23,17 @@ title                    : "Nicolás Budini"
 title_separator          : "-"
 subtitle                 : Personal Blog
 name                     : "Nicolás Budini"
-description              : "Welcome to my personal blog, and thanks for visiting. I’m a physicist and university professor based in Argentina. I work on digital holography and optical characterization of materials, combining experimental optics with computational tools to extract quantitative information. I teach physics at both undergraduate and graduate levels, from introductory courses to advanced topics. This blog is a space where I share educational and academic material, along with reflections on teaching and physics. This is a place to share things that might be useful to others."
+description              : >-
+                          Welcome to my personal blog, and thanks for visiting. I’m a physicist and university professor based in Argentina.
+                          I work on digital holography and optical characterization of materials, combining experimental optics with computational
+                          tools to extract quantitative information. I teach physics at both undergraduate and graduate levels, from introductory
+                          courses to advanced topics. This blog is a space where I share educational and academic material, along with reflections
+                          on teaching and physics. This is a place to share things that might be useful to others.
 url                      : "https://nbudini.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "nbudini/nbudini.github.io"
 teaser                   : #"/assets/images/face-art.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : #"/assets/images/face-art.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : #220
