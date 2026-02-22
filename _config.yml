@@ -22,7 +22,7 @@ title                    : "Nicolás Budini"
 title_separator          : "-"
 subtitle                 : Personal Blog
 name                     : "Nicolás Budini"
-description              : "Welcome to my personal blog, and thanks for visiting. I’m Nicolás, a physicist and university professor based in Argentina. I work on digital holography and optical characterization of materials, combining experimental optics with computational tools to extract quantitative information. I teach physics at both undergraduate and graduate levels, from introductory courses to advanced topics. This blog is a space where I share educational and academic material, along with reflections on teaching and physics. This is a place to share things that might be useful to others."
+description              : "Welcome to my personal blog, and thanks for visiting. I’m a physicist and university professor based in Argentina. I work on digital holography and optical characterization of materials, combining experimental optics with computational tools to extract quantitative information. I teach physics at both undergraduate and graduate levels, from introductory courses to advanced topics. This blog is a space where I share educational and academic material, along with reflections on teaching and physics. This is a place to share things that might be useful to others."
 url                      : "https://nbudini.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "nbudini/nbudini.github.io"
