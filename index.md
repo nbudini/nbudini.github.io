@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Welcome"
+title: "Nicolás Budini | Physicist"
 ---
 
 ## About Me
@@ -9,13 +9,8 @@ I am a physicist working in digital holography and optical characterization of n
 
 I teach undergraduate and graduate physics courses and supervise research projects.
 
-## Research Interests
-
-- Digital Holography  
-- Optical Characterization  
-- Quantitative Phase Imaging  
-- Nanostructured Materials  
+[Research](/research/) · [Publications](/publications/) · [Teaching](/teaching/) · [CV](/cv/)
 
 ## Contact
 
-Email: nbudini@fiq.unl.edu.ar / nicolas.budini@santafe-conicet.gov.ar / budinense@gmail.com
+Email: [nbudini@fiq.unl.edu.ar](mailto:nbudini@fiq.unl.edu.ar)
