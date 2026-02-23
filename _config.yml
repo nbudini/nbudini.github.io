@@ -7,6 +7,7 @@ theme: jekyll-theme-cayman
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jektex
 
 # Optional: Add your social links
 github_username: nbudini
@@ -15,3 +16,10 @@ github_username: nbudini
 # Cayman theme specific
 show_downloads: true
 google_analytics: G-FBE9XX1P28
+
+# Optional Jektex configuration
+jektex:
+  cache_dir: ".jektex-cache"  # Cache location (default: .jekyll-cache)
+  silent: false               # Set to true to silence output
+  ignore: ["*.xml"]           # Files to ignore (e.g., RSS feeds)
+  macros: []                  # Define custom LaTeX macros
