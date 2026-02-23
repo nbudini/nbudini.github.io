@@ -1,66 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      display: flex;
-      max-width: 1000px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+      
+      <!-- Add your custom navigation -->
+      <nav>
+        <a href="{{ '/' | relative_url }}" class="btn">Home</a>
+        <a href="{{ '/research' | relative_url }}" class="btn">Research</a>
+        <a href="{{ '/teaching' | relative_url }}" class="btn">Teaching</a>
+        <a href="{{ '/publications' | relative_url }}" class="btn">Publications</a>
+        <a href="{{ '/cv' | relative_url }}" class="btn">CV</a>
+      </nav>
+    </header>
 
-    nav {
-      width: 220px;
-      padding: 60px 20px;
-      border-right: 1px solid #eee;
-    }
-
-    nav h1 {
-      font-size: 20px;
-      margin-bottom: 30px;
-      font-weight: 600;
-    }
-
-    nav a {
-      display: block;
-      margin: 12px 0;
-      color: #444;
-      text-decoration: none;
-      font-size: 15px;
-    }
-
-    nav a:hover {
-      color: #000;
-    }
-
-    main {
-      flex: 1;
-      padding: 60px 40px;
-    }
-
-    h1, h2, h3 {
-      font-weight: 600;
-    }
-  </style>
-</head>
-<body>
-
-<nav>
-  <h1>Dr. Nicolás Budini</h1>
-  <a href="/research/">Research</a>
-  <a href="/teaching/">Teaching</a>
-  <a href="/publications/">Publications</a>
-  <a href="/cv/">CV</a>
-</nav>
-
-<main>
-  {{ content }}
-</main>
-
-</body>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+      
+      <footer class="site-footer">
+        <span class="site-footer-owner">
+          <a href="{{ site.github.repository_url }}">{{ site.title }}</a> 
+          is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
+        </span>
+      </footer>
+    </main>
+  </body>
 </html>

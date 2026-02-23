@@ -1,47 +1,17 @@
-# -----------------------------
-# THEME
-# -----------------------------
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-
-# -----------------------------
-# SITE SETTINGS
-# -----------------------------
-locale: "en-US"
-title: "Dr. Nicolás Budini"
-title_separator: "-"
-subtitle: "Personal Page"
-name: "Dr. Nicolás Budini"
-markdown: kramdown
-
+title: Dr. Nicolás Budini
 description: >-
-  Physicist and university professor based in Argentina.
-  I work on digital holography and optical characterization of materials,
-  combining experimental optics with computational tools to extract
-  quantitative information. I teach physics at undergraduate and
-  graduate levels. This blog is a space to share academic and
-  educational material.
+  Physicist and university professor based in Argentina
+theme: jekyll-theme-cayman
 
-url: "https://nbudini.github.io"
-baseurl: ""
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
 
-repository: "nbudini/nbudini.github.io"
+# Optional: Add your social links
+github_username: nbudini
+# twitter_username: yourusername
 
-logo: "/assets/logo.png"
-
-# -----------------------------
-# AUTHOR
-# -----------------------------
-author:
-  name: "Dr. Nicolás Budini"
-  location: "Dpto. de Física, Facultad de Ingeniería Química, UNL (Argentina)"
-  email:
-  bio: >-
-    Physicist working in digital holography and optical characterization
-    of nanostructured materials. University professor in physics.
-
-# -----------------------------
-# ANALYTICS
-# -----------------------------
+# Cayman theme specific
+show_downloads: true
 google_analytics: G-FBE9XX1P28

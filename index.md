@@ -1,13 +1,11 @@
 ---
 layout: default
-title: "Nicolás Budini | Physicist"
+title: Home
 ---
 
 ## Welcome
 
-I am a physicist working in digital holography and optical characterization of nanostructured materials. My research combines experimental optics and computational methods for quantitative phase imaging.
-
-I teach undergraduate and graduate physics courses and supervise research projects.
+I am a physicist working on digital holography and optical characterization of materials, combining experimental optics with computational tools to extract quantitative information. I teach undergraduate and graduate courses in physics, and supervise internships, theses, doctoral and postdoctoral researchers, as well as research projects.
 
 ## Contact
 
