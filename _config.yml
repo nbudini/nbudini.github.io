@@ -11,8 +11,8 @@ plugins:
 locale: "en-US"
 title: "Nicolás Budini"
 title_separator: "-"
-subtitle: "Personal Blog"
-name: "Nicolás Budini"
+subtitle: "Personal Page"
+name: "Dr. Nicolás Budini"
 markdown: kramdown
 
 description: >-
