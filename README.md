@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Nicolás Budini | Physicist"
+title: "Dr. Nicolás Budini | Physicist"
 ---
 
 ## Welcome
